@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage ('Debug Issue') {
       steps {
-        sh 'cat build_output.log'
+        sh 'cat debug_channelclose.txt'
         //archiveArtifacts 'build_output.log'
       }
     }
